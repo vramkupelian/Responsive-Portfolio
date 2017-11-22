@@ -154,11 +154,12 @@ a:hover{
 
 @media screen and (max-width:980px){
    
-    img{
+    img, .rightside, .leftside {
         width:85%;
-        
-
+        float: left;
+        margin: 15px 25px;
     }
+
     .main-header{
         width: 74%;
     }
@@ -167,7 +168,7 @@ a:hover{
         width:74%;
     }
 
-    .about-me{
+    .about-me, .container, .form{
         width:50%;
     }
 
