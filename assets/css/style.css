@@ -109,6 +109,7 @@ body{
     border:1px solid #cccccc; 
     text-align:center;
     padding-bottom:15px;
+    
 }
 
 h1{
@@ -154,7 +155,11 @@ a:hover{
 
 @media screen and (max-width:980px){
    
-    img, .rightside, .leftside {
+    .photo-vram{
+        width:85%;
+        margin: auto 10px;
+    }
+    .rightside, .leftside {
         width:85%;
         float: left;
         margin: 15px 25px;
@@ -168,24 +173,27 @@ a:hover{
         width:74%;
     }
 
-    .about-me, .container, .form{
+    .about-me, .container, .form {
         width:50%;
+        margin:auto;
+        float:left;
     }
 
-    .connection-box{
-        width:37%;
-    }
+   
 
 }
 
 @media screen and (max-width: 768px){
 
     .giant{
-        width:750px;
+        width:95%;
         
     }
 
+     .connection-box{
+        width:100%;
     
+    }
 }
 
 @media screen and (max-width:640px){
