@@ -185,14 +185,38 @@ a:hover{
 
 @media screen and (max-width: 768px){
 
-    .giant{
-        width:95%;
-        
+    .photo-vram{
+        width:50%;
+        margin: auto 25px;
     }
 
-     .connection-box{
-        width:100%;
+    .leftside, .rightside {
+        width:40%;
+        float: left;
+        /* margin: 15px 45px; */
+    }
+
+  
+    .main-header{
+        width: 90%;
+    }
     
+    .giant{
+        width:90%;
+      margin:auto;
+    }
+
+    .about-me, .container, .form {
+        width:90%;
+     
+    }
+
+   
+    .connection-box{
+        
+        width:100%;
+        margin-top: 30px;
+        
     }
 }
 
