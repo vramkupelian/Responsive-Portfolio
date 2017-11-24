@@ -73,6 +73,7 @@ body{
     background-color:#ffffff;
     padding-left: 25px;
     padding-right: 25px;
+    float: left;
 }
 
 .about-me{
@@ -91,7 +92,8 @@ body{
     background-color:#ffffff;
     overflow:auto;
     width:600px;
-    padding:25px;    
+    padding:25px; 
+    float: left;   
 }
 
 .main-header {
