@@ -235,66 +235,61 @@ a:hover{
 
 @media screen and (max-width:640px){
 
-    .photo-vram{
-        width:90%;
-        margin: auto 25px;
-    }
+        .photo-vram{
+            width:90%;
+            margin: auto 25px;
+        }
 
-    .leftside, .rightside {
-        width:100%;
-        float: left;
-        margin: 15px auto;
+        .leftside, .rightside {
+            width:100%;
+            float: left;
+            margin: 15px auto;
         
-    }
+        }
 
   
-     .name, .links{
-        width: 100%;
-        text-align: center;
-        margin:auto;
-        padding:auto;
-        left:30px;
-    }
+        .name, .links{
+            width: 100%;
+            text-align: center;
+            margin:auto;
+            padding:auto;
+            left:30px;
+        }
     
-    .main-header{
-        background-color:none;
-        width:100%;
-        position:relative;
-        
-    }
+        .main-header{
+            background-color:none;
+            width:100%;
+            position:relative;
+        }
 
-    h1{
-        position:relative;
-        left: 120px;
-        
-
-    }
-
-    nav{
-        background-color: #ffffff;
-        padding-top: 15px;
-        padding-bottom:15px;
-        width:100%;
-        margin-bottom:15px;
-        margin-top:0;
-        text-align: center;
-    }
+        h1{
+            position:relative;
+            left: 160px;
+        }
+ 
+         nav{
+            background-color: #ffffff;
+            padding-top: 15px;
+            padding-bottom:15px;
+            width:110%;
+            margin-bottom:15px;
+            margin-top:0;
+            text-align: center;
+        } 
    
-    .giant{
-        width:90%;
-      margin:auto;
-    }
+        .giant{
+            width:90%;
+            margin:auto;
+        }
 
-    .about-me, .container, .form {
-        width:90%;
-     
-    }
+        .about-me, .container, .form {
+            width:90%;
+        }
 
    
-    .connection-box{
-        
-        width:100%;
-        margin-top: 30px;
-    }
+        .connection-box{  
+            width:100%;
+            margin-top: 30px;
+        }
 
 }
