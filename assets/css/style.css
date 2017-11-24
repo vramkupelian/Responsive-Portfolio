@@ -98,7 +98,6 @@ body{
 
 .main-header {
     background-color:#ffffff;
-  /*  border:1px solid #cccccc;*/
     width:960px;
     margin:auto;
 }
@@ -112,7 +111,7 @@ body{
 
 .links{
     float:right;
-    vertical-align:center;
+    
 }
 
 .connection-box{
@@ -243,12 +242,11 @@ a:hover{
         .leftside, .rightside {
             width:100%;
             float: left;
-            margin: 15px auto;
-        
+            margin: 15px auto;       
         }
 
   
-        .name, .links{
+        .name{
             width: 100%;
             text-align: center;
             margin:auto;
@@ -256,6 +254,20 @@ a:hover{
             left:30px;
         }
     
+        .links{
+            background-color: #ffffff;
+            padding-top: 15px;
+            padding-bottom:15px;
+            width:110%;
+            margin-top:0;
+            text-align: center;
+            line-height:10%;
+            display: inline;
+            vertical-align: middle;
+            position:relative;
+            left:40px;
+        }
+
         .main-header{
             background-color:none;
             width:100%;
@@ -264,17 +276,21 @@ a:hover{
 
         h1{
             position:relative;
-            left: 160px;
+            left: 137px;
         }
  
          nav{
             background-color: #ffffff;
             padding-top: 15px;
             padding-bottom:15px;
-            width:110%;
+            width:100%;
             margin-bottom:15px;
             margin-top:0;
             text-align: center;
+            height:10%;
+            position:relative;
+            top: 10px;
+            margin-left: auto;
         } 
    
         .giant{
